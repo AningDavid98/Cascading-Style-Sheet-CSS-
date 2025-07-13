@@ -1,0 +1,60 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Styled To-Do List</title> 
+
+<link rel="stylesheet"href="styles.css">
+</head>
+
+<body>
+    <ul class="todo-list">
+        <li><input type="checkbox" id="list-one"><label for="list-one">Explore freecodecamp</label><ul class="sub-item"><li><a class="sub-item-link" href="http://freecode.com" target="_blank">How to become a software developer</a></li></ul></li>
+        <br >
+        <br >
+        <li><input type="checkbox" id="list-two"><label for="list-two">Explore the Amponsah's family</label><ul class="sub-item"><li><a class="sub-item-link" href="http://freecode.com" target="_blank">All you need to know about David</a></li></ul></li>
+        <br >
+        <br >
+        <li><input type="checkbox" id="list-three"><label for="list-three">Welcome the family</label><ul class="sub-item"><li><a class="sub-item-link" href="http://freecode.com" target="_blank">Issues Arising</a></li></ul></li>
+        <br >
+        <br >
+        <li><input type="checkbox" id="list-four"><label for="list-four">What is there to know</label><ul class="sub-item"><li><a class="sub-item-link" href="http://freecode.com" target="_blank">HTML CSS</a></li></ul></li>
+    </ul>
+
+</body>
+
+</html>
+
+** end of index.html **
+
+** start of styles.css **
+
+a{ text-decoration: none;
+color: blue;
+}
+
+a:visited{
+  color: purple;
+}
+
+a:hover{
+  color: red;
+}
+
+a:focus{
+  outline: 5px solid red
+}
+
+a:active{
+  color: orange;
+}
+
+li{
+  list-style: none;
+}
+
+** end of styles.css **
+
