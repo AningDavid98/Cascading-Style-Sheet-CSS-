@@ -1,0 +1,84 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Build an Event Flyer Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<header>
+  <img src="https://cdn.freecodecamp.org/curriculum/labs/event.jpg" alt="rubber bands of different colours">
+  <h1>Rainbow Colour Festival</h1>
+</header>
+
+<main>
+  <section class="section">
+    <h2>About</h2>
+    
+    <p>Join us for this year raibow colour festival in Ghana.</p>
+       
+    <p><strong>Where:</strong> Konongo Odumasi Senior High School Park.</p>  <p><strong>When:</strong> 3rd October, 2025</p>
+  </section>
+  <hr >
+  <section class="section">
+    <h2>Festival Highlights</h2>
+    <p>
+      <ul>
+        <li>Best Design</li>
+        <li>Best Dressed Group</li>
+      </ul>
+    </p>
+
+    <h3>Special Guests</h3>
+    <p>
+      <ul>
+        <li>David Aning Amponsah</li>
+        <li>Elizabeth Ahenkan Amponsa</li>
+      </ul>
+    </p>
+
+    <h3>Foods</h3>
+    <p>
+      <ul>
+        <li>Fufu with lightsoup</li>
+        <li>Rice with Kontomire stew</li>
+      </ul>
+    </p>
+  </section>
+</main>
+
+<body>
+
+</body>
+
+</html>
+
+** end of index.html **
+
+** start of styles.css **
+
+body{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100vw;
+  min-height: calc(100vh - 100px);
+  
+}
+
+hr{
+  width: 80%;
+}
+
+section{
+  width: 30%;
+}
+
+** end of styles.css **
+
