@@ -1,0 +1,81 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <form>
+            <label for="name">Name: </label><input type="text" id="name" placeholder="enter your name">
+            <br >
+            <br >
+            <label for="email">Email: </label><input type="email" id="email" placeholder="enter your email">
+            <br >
+            <br >
+            <label for="position">Position: </label><select id="position">
+                <option>select a position</option>
+                <option>Frontend developer</option>
+                <option>Backend developer</option>
+                <option>Fullstack developer</option>
+                </select>
+                <br >
+                <br >
+                <fieldset class="radio-group">
+                    <legend>Availability</legend>
+                    <input type="radio" name="availability" id="full-time"><label for="full-time">Full-Time</label>
+                    <input type="radio" name="availability" id="part-time"><label for="part-time">Part-Time</label>
+                </fieldset>
+                <br >
+                <label for="message">Message: <textarea id="message" placeholder="write your motivation"></textarea></label>
+                <br >
+                <br >
+                <button type="submit">Submit</button>
+        </form>
+    </div>
+
+</body>
+</html>
+
+** end of index.html **
+
+** start of styles.css **
+
+input:focus, textarea:focus{
+  border-color: yellow;
+}
+
+input:invalid, select:invalid, textarea:invalid{
+  border-color: red;
+}
+
+input:valid, select:valid, textarea:valid{
+  border-color: green;
+}
+
+button:hover{
+  background-color: violet;
+}
+
+.radio-group input[type="radio"]:checked{
+  box-shadow: 2px 2px 2px yellow;
+  background-color: orange;
+  border: 1px solid green; 
+  
+}
+
+input:first-of-type{
+  border-radius: 5px;
+}
+
+
+input[type="radio"]:checked + label{
+  color: red;
+}
+
+** end of styles.css **
+
